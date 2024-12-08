@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+import { Fragment } from "react";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -20,7 +21,7 @@ const root = createRoot(document.getElementById("root"));
 
 function Page() {
   return (
-    <div>
+    <Fragment>
       <header>
         <img src="src/reactLogo.png" width="30px" />{" "}
       </header>
@@ -40,7 +41,7 @@ function Page() {
       <footer>
         <small>© 2024 Jha development. All rights reserved</small>
       </footer>
-    </div>
+    </Fragment>
   );
 }
 
