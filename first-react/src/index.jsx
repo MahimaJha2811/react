@@ -21,13 +21,13 @@ const root = createRoot(document.getElementById("root"));
 
 function Header() {
   return (
-    <header>
-      <img src="src/reactLogo.png" width="30px" />
+    <header className="nav-bar">
+      <img src="src/reactLogo.png" className="nav-logo" />
       <nav>
-        <ul>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ul className="nav-list">
+          <li className="nav-list-item">Pricing</li>
+          <li className="nav-list-item">About</li>
+          <li className="nav-list-item">Contact</li>
         </ul>
       </nav>
     </header>
