@@ -22,7 +22,14 @@ const root = createRoot(document.getElementById("root"));
 function Header() {
   return (
     <header>
-      <img src="src/reactLogo.png" width="30px" />{" "}
+      <img src="src/reactLogo.png" width="30px" />
+      <nav>
+        <ul>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
   );
 }
