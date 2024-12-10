@@ -1,12 +1,8 @@
-*{
-  box-sizing: border-box;
-}
+
 
 body {
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #27292c;
-  color: white;
+  margin: 0;
+  font-family: Inter;
 }
 
 h1 {
@@ -34,9 +30,9 @@ h1 {
 }
 
 .heading{
-  font-size: 25px;
+  font-size: 35px;
   margin-left: 25px;
-  color: aqua;
+  color: #61DAFB;
   font-weight: 500;
 }
 
@@ -45,5 +41,17 @@ h1 {
 }
 
 .appImg{
-  width: 50px;
+  width: 60px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  
+}
+
+header {
+  height: 85px;
+  background: #21222A;
+  padding: 30px;
 }
