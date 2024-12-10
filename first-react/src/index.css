@@ -32,3 +32,18 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
+
+.heading{
+  font-size: 25px;
+  margin-left: 25px;
+  color: aqua;
+  font-weight: 500;
+}
+
+.list-item{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appImg{
+  width: 50px;
+}
